@@ -1,0 +1,75 @@
+input:checked{
+    height: 20px;
+    width: 20px;
+    accent-color: red;
+}
+input:enabled{
+    background-color: aquamarine;
+}
+input:disabled{
+    background-color: darkred;
+}
+p:empty{
+    width: 150px;
+    height: 15px;
+    background-color: blue;
+}
+div#d p:first-of-type{
+    color: green;
+}
+span:last-child{
+    color: red;
+}
+p:last-child{
+    color: red;
+}
+div#d p:last-of-type{
+    background-color: deepskyblue;
+}
+div#d p:first-child{
+    background-color: darkturquoise;
+}
+p{
+    color: dodgerblue;
+}
+:not(p){
+    color: rebeccapurple;
+}
+input:focus{
+    background-color: cyan;
+}
+input:in-range{
+    border: 4px ridge purple;
+}
+input:out-of-range{
+    border: 4px solid black;
+    background-color: red;
+}
+input:valid{
+    color:darkcyan;
+    border: 2px solid blue;
+}
+input:invalid{
+    border: 2px solid red;
+    color: red;
+}
+div.mady p:nth-child(2){
+    color: darkorchid;
+}
+.mady{
+    border: 5px ridge grey;
+     background-color: white;
+}
+.bidy{
+    border: 5px ridge grey;
+}
+div.mady p:nth-child(2n+1){
+    color: orangered;
+}
+div.mady p:nth-of-type(3){
+    background-color: darkviolet;
+    color: white;
+}
+body{
+    background-color: whitesmoke;;
+}
